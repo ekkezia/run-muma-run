@@ -1,0 +1,110 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    html,
+    body {
+        height: 100vh;
+        font-family: 'Poppins';
+        background: white;
+        overflow: hidden;
+    }
+    
+    .webgl {
+        position: absolute;
+        top: 0;
+        left: 0;
+        outline: none;
+        /* visibility: hidden; */
+    }
+    
+    .container {
+        /* top: 50%;
+        left: 50%; */
+        height: 400px;
+        place-items: center;
+        display: grid;
+    }
+    
+    section {
+        height: 100vh;
+    }
+    
+    h1 {
+        color: black;
+        font-size: 8rem;
+    }
+    
+    #block {
+        height: 100px;
+        width: 100px;
+        position: absolute;
+        background: pink;
+    }
+    
+    .n {
+        position: absolute;
+        top: 100px;
+        width: 500px;
+        height: 10px;
+        background: black;
+        place-items: center;
+        font-size: 5rem;
+    }
+    
+    .n1 {
+        top: 200px;
+    }
+    
+    .n2 {
+        top: 300px;
+    }
+    
+    .n3 {
+        top: 400px;
+    }
+    
+    .n4 {
+        top: 500px;
+    }
+    /* #wrap {
+    height: 100vh;
+    place-items: center;
+    display: grid
+} */
+    
+    #container {
+        position: fixed;
+        height: 100vm;
+        /* background-image: url('assets/loading.gif'); */
+        place-items: center;
+        /* background-repeat: no-repeat; */
+    }
+    
+    img {
+        place-items: center;
+    }
+    
+    .onepix-imgloader {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        z-index: 1000;
+    }
+    /*hide the second element in the loading container (first element is the leading img)*/
+    /* .loading-container>*:not(.onepix-imgloader) {
+        filter: alpha(opacity=0);
+        -moz-opacity: 0;
+        -khtml-opacity: 0;
+        opacity: 0;
+    } */
+    
+    .loading-container {
+        position: relative;
+        top: 40%;
+        left: 15%;
+        background: white;
+        min-height: 100px;
+        height: 400px;
+    }
